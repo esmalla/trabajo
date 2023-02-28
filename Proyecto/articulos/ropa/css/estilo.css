@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+       margin: 0;
+       box-sizing: border-box;
+       font-family: 'Roboto',cursive;
+       text-decoration: none;
+   
+        
+      
+   }
+   body{
+   
+       
+    
+   }
+   .a{
+       width: 95vw;
+       height: 15vh;
+       background-color: aqua;
+   }
+   header{
+       background:#ff3;
+       width: 100vw;
+       height: 15vh;
+       position: fixed;
+       font-size:8px;
+   }
+   
+   .cabezera{
+        font-size: 3em;
+       
+       margin: 33px 7px;
+       align-content: center;
+       display: flex;
+       justify-content: space-between;
+       align-content: flex-end;
+   }
+   
+   .crear{
+       margin: 0 30px;
+   }
+   
+   
+   div > .seccion-a{
+       position: relative;
+       margin: 0 0px;
+       top: -20px;
+       width: 70px;
+       display: flex;
+    
+       
+   }
+   
+   main{
+       border: 5px solid #ff3;
+       border-radius: 30px;
+       margin: 30px 30px;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       align-items: center;
+       align-content: space-between;
+       height: 69vh;
+       width: 74vw;
+       background-color: #ff37;
+       
+   }
+   
+   input{
+       width: 70vw;
+       height: 5vh;
+       outline: 2px solid #ff3
+   }
+   .contenedor-usuario{
+        margin: 30px 30px;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       align-items: center;
+       align-content: space-between;
+       height: 60vh;   
+       
+   }
+   
+   a,h2{
+       
+       align-self: flex-start;
+   }
+   
+   [value="Iniciar seción"]{
+   
+   font-size:30px;
+       width: 100%;
+       height: -20px;
+       background-color: #ff3;
+       border: 1px solid #ff3;
+    
+   
+   }
+   
+   
+   footer{
+     
+       width:100vw;
+   height:20vh;
+      background-color:#ff3; 
+   }
+   
+   .contenedor-footer{
+        
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+   }
+   
+   img{
+       width: 80px;
+       height: 80px;
+   }
+   
+   .titulo{
+       flex-basis: 40px;
+       
+   }
+   [value="crear cuenta"]{
+       border: 3px solid #ff2 ;
+       background-color:  #ff2;
+   
+   }
+   
+   [value="crear cuenta"]:focus{
+       
+       background-color: #ff6;
+   }
+   
+   h2{
+     text-align:left;
+   }
+
+   .parte2{
+       display: flex;
+      
+       flex-direction: row;
+       justify-content: space-evenly;
+      
+       
+   }
+
+   .seccion-a > .favorito{
+  
+    position: absolute;
+      width: 30vw;
+    left: -10hv;
+   }
+
+   .producto{
+      background-color: bisque;
+     border: 3px solid #555;
+     height: 40vh;
+     width: 40vw;
+     display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+   }
+
+   [alt="jans de corazon"]{
+    height: 300px;
+     width: 200px;
+   }
+   
+   
+   @media screen and (max-device-width: 604px) and (max-device-width:516px) {
+    [alt="Regreso"]{
+
+        width: 30px;
+        height: 30px;
+    }
+
+    .parte2{
+        display: flex;
+       
+        flex-direction: row;
+        justify-content: space-evenly;
+       flex-wrap: wrap;
+        
+    }
+    [alt="jans de corazon"]{
+        height: 100%;
+         width: 100%;
+       }
+       
+
+   }
+   
